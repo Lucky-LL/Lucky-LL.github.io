@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 <!DOCTYPE html>
 <html>
 <head> {color: #FFFAF0; backround-color: #00CED1}
@@ -10,3 +11,7 @@
 </body>
 
 </html>
+=======
+# lucky-ll.github.io
+Unit 1: Web Page Project
+>>>>>>> origin/master
