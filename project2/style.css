@@ -1,4 +1,5 @@
-body{color:#FFFAF0;background: url(image/sailboat.jpg)
+body{color:#FFFAF0;background:#00CED1;
+	background-image: url(image/sailboat.jpg);
 text-align: center; list-style-position: left;
 font-family: Helvetica;
 font-size: 24px;}
