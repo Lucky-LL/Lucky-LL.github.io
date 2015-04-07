@@ -7,8 +7,10 @@ body{
 
 h1{
 	font-size:60px;
-	color:#000;
+	color:#B0C4DE;
 }
+
+p{font-style:italic;}
 
 ul{
 	padding:0;
