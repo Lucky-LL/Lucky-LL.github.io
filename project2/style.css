@@ -6,9 +6,11 @@ body{
 }
 
 h1{
-	font-size:57px;
+	font-size:60px;
 	color:#B0C4DE;
 	font-style: Helvetica;
+    text-shadow: 2px 2px #566D7E;
+}
 	
 }
 
