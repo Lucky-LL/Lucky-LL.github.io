@@ -2,5 +2,11 @@ body{color:#FFFAF0;background:#5F9EA0;
 text-align: center; list-style-position: center;
 font-family: Helvetica;
 font-size: 70px;}
+h1 {
+	font-family: Yellowtail;
+	font-size: 14px;
+	font-style: normal;
+	font-variant: normal;
+	font-weight: 500;
 hr{width: 100px;}
 
