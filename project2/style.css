@@ -1,7 +1,9 @@
 body{color:#FFFAF0;background:#5F9EA0;
 text-align: center; list-style-position: inside;
 font-family: Helvetica;
-a:link {color:#B93B8F; background-color:transparent; text-decoration:italic}
+a:link {color:#000000;
+	background-color:transparent;
+	text-decoration:italic}
 font-size: 70px;}
 hr{width: 100px;}
 
