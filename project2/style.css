@@ -11,25 +11,22 @@ h1{
 	font-style: Helvetica;
     text-shadow: 2px 2px #566D7E;
 }
-
-p{
-	font-size:30px;
 	
-}
-	
-}
-
-h2{
-	font-size: 60px;
-	color: #B0C4DE;
-	text-shadow: 2px 2px #566D7E;	
-}
 
 p{
 	font-weight: normal;
 	font-size: 16px;
     letter-spacing: normal;
     line-height: 119%;
+}
+
+}
+
+h2{
+	font-size: 60px;
+	color: #B0C4DE;
+	font-style: Helvetica;
+	text-shadow: 2px 2px #566D7E;	
 }
 
 ul{
@@ -42,13 +39,12 @@ ul{
 a:link {
 	color:#6960EC;
 	background-color:transparent;
-	text-decoration:italic;
 }
 a:hover {
     color: #FF00FF;
 }
 
 hr{
-	width: 100px;
+	width: 500px;
 }
 
