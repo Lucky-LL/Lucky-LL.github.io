@@ -8,25 +8,37 @@ body{
 h1{
 	font-size:57px;
 	color:#B0C4DE;
-	font-style: Helvetica
+	font-style: Helvetica;
+	
 }
 
 h2{font-size: 30px;
 	color: #B0C4DE;
+	
 }
 
-p{font-weight: 0;}
+p{
+	font-weight: normal;
+	font-size: 16px;
+    letter-spacing: normal;
+    line-height: 119%;
+}
 
 ul{
 	padding:0;
 	list-style-position:inside;
+	line-height: 119%;
+	letter-spacing: normal;
 }
 
-a:link {color:#000000;
+a:link {
+	color:#6960EC;
 	background-color:transparent;
-	text-decoration:italic
+	text-decoration:italic;
 }
-
+a:hover {
+    color: #FF00FF;
+}
 
 hr{
 	width: 100px;
