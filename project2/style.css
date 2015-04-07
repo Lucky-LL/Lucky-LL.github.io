@@ -11,12 +11,18 @@ h1{
 	font-style: Helvetica;
     text-shadow: 2px 2px #566D7E;
 }
+
+p{
+	font-size:30px;
+	
+}
 	
 }
 
 h2{
-	font-size: 30px;
-	color: #B0C4DE;	
+	font-size: 60px;
+	color: #B0C4DE;
+	text-shadow: 2px 2px #566D7E;	
 }
 
 p{
