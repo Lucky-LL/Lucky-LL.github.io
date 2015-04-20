@@ -5,6 +5,7 @@ body{
 	text-align: center; 
 	font-family: "Open Sans Condensed", sans-serif;
     background-image: url("green background 1.jpg");
+    background-repeat: repeat-y;
 
 }
 
