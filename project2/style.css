@@ -1,21 +1,13 @@
+@import url(http://fonts.googleapis.com/css?family=Yellowtail|Open+Sans+Condensed:300);
+
 
 body{
 	color:#FFFAF0;
-	background:#5F9EA0;
+	background-color: #2FABB3;
 	text-align: center; 
 	font-family: "Open Sans Condensed", sans-serif;	
+		/*background: url("images/s.JPG") no-repeat center center fixed;*/
 }
-
-html{
-  	background-image: url("img/green1.jpg");
-    background-repeat: no-repeat;
-    background-position: center;
-    background-color: #5F9EA0;
-}
-
-
-@import url(http://fonts.googleapis.com/css?family=Yellowtail|Open+Sans+Condensed:300);
-
 
 h1{
 	font-size:60px;
@@ -27,6 +19,7 @@ h1{
     font-family: "Yellowtail", cursive;
     text-shadow: 2px 2px #566D7E;
     margin: 30px;
+    background-color: #2FABB3;
  
 
 }
@@ -34,7 +27,7 @@ h1{
 
 	
 img { 
-   border:none; solid #B0C4DE;
+   border:none; 
 
 }
 
@@ -47,9 +40,9 @@ p{
     line-height: 125%;
     margin: 0 auto 10px;
     width: 400px;
-    background-image: url("img/green1.jpg");
     background-repeat: repeat-y;
     background-position: top center;
+    background-color: #2FABB3;
     
 
 }
@@ -61,7 +54,7 @@ h2{
 	color:#B0C4DE;
 	font-style: ;
 	text-shadow: 2px 2px #566D7E;
-	background-color: ;
+	background-color: #2FABB3;
 	margin: 20px 0 15px;
 
  
@@ -76,6 +69,7 @@ ul{
 	text-align: left;
 	width: 91px;
 	margin: 0 auto 10px;
+	background-color: #2FABB3;
 
 }
 
@@ -89,5 +83,11 @@ a:hover {
 
 hr{
 	width: 500px;
+}
+
+*{
+ margin: 0;
+ padding: 0;
+
 }
 
