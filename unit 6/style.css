@@ -1,0 +1,133 @@
+@import url (http://fonts.googleapis.com/css?family=Josefin+Sans:300,400,700);
+
+
+body {
+   color: #E0D1C2;background: 	#191919;
+   font-family: 'Josefin Sans', sans-serif;
+   font-weight: 300;
+}
+
+header {
+	padding-top: 10px;
+	position: fixed;
+	top: 0;
+	width: 50%;
+
+}
+
+.nav ul {
+  list-style: none;
+  background-color: transparent;
+  text-align: center;
+  padding: 0;
+  margin: 0;
+
+}
+.nav li {
+  font-family: 'Josefin Sans', sans-serif;
+  font color: #E0D1C2;
+  font-weight: 300;
+  font-size: 1em;
+  line-height: 40px;
+  height: 40px;
+  border-bottom: 1px solid #888;
+}
+ 
+.nav a {
+  text-decoration: none;
+  color: #fff;
+  display: block;
+  transition: .3s background-color;
+}
+ 
+.nav a:hover {
+  background-color: #23D7E5;
+}
+ 
+.nav a.active {
+  background-color: #fff;
+  color: #444;
+  cursor: default;
+}
+ 
+@media screen and (min-width: 600px) {
+  .nav li {
+    width: 75px;
+    border-bottom: none;
+    height: 45px;
+    line-height: 50px;
+    font-size: 1.1em;
+  }
+ 
+  .nav li {
+    display: inline-block;
+    margin-right: -4px;
+  }
+ 
+   .nav li ul {
+    position: absolute;
+    display: none;
+    width: inherit;
+  }
+
+  .nav li:hover ul {
+    display: block;
+  }
+
+  .nav li ul li {
+    display: block;
+  }
+.nav li li {
+  font-size: 1.2em;
+}
+
+
+
+
+h1 {
+	font-family: "Josefin Sans", sans-serif;
+	text-align: left;
+	font-weight: 700;
+	font-size: 50px;
+	margin: 0 auto 10px;
+	width: 400px;
+	padding: 0px 100px 4px;
+}
+
+p {
+	margin: 0 auto 10px;
+	width: 400px;
+	padding: 0px 100px 30px;
+
+}
+
+*
+{
+  margin: 0;
+  padding: 0;
+} 
+
+
+.logo {
+    float: left 25%;
+    margin: 10px;
+    background-attachment: fixed;
+    background-position: left top;
+    position: absolute;
+  
+}
+
+.logo:hover {
+    opacity: .4;
+    filter: alpha(opacity=90);
+}
+
+.lotus {
+   margin: 0 10;
+   padding-left: 200px;
+   padding-top: 0px;
+
+  
+}
+
+
