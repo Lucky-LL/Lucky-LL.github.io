@@ -113,26 +113,17 @@
     float: left;
 }
 
-.table1 {
-  position: bottom;
+.otherserv {
+  width: 60px;
+}
+
+
+.table1 {;
   width:300px;
   margin: auto;
-  font-size:12px;
+  font-size:14px;
   font color: #D9DAF0;
   border:1px solid #23D7E5;
   background-color: #E0D1C2;
-  border-collapse: collapse;
 
-}
-
-.table1 th{
-  color: #E0D1C2;
-  vertical-align: middle;text-align:center;
-  border:1px solid #23D7E5;
-}
-
-.table1 td {
-  color: #D9DAF0;
-  vertical-align: middle; text-align: left;
-  border: 1px solid #23D7E5;
 }
