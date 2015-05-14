@@ -46,7 +46,7 @@
 
 .nav a.active {
   background-color: #D9DAF0;
-  color: #444;
+  color: #E0D1C2;
   cursor: default;
 }
 
@@ -126,10 +126,15 @@
   /*border: 4px solid red;*/
   padding: 10px;
   float: right;
-  margin-right: 280px;
-  margin-bottom: 2px;
-  margin-top: 30px;
+  margin:0;
 
+}
+
+
+.wellness{
+  float:left;
+  margin:0;
+  padding:0;
 }
 
 .main img {
@@ -140,6 +145,20 @@
   margin-top: 30px;
   float: left;
   padding: 10px;
+}
+
+
+
+
+.clearfix:after{
+  visibility: hidden;
+  display: block;
+  font-size: 0;
+  content: "";
+  clear: both;
+  height:0;
+
+
 }
 
 footer {
