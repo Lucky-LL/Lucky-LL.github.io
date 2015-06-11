@@ -9,23 +9,21 @@ body{
 	font-family: "Open Sans Condensed", sans-serif;	
 }
 
-  header {
+header {
   	padding-top: .1em;
   	width: 100%;
 
 
-  }
+}
 
 
- .nav ul {
+nav ul {
     list-style: none;
     background-color: transparent;
     text-align: center;
+}
 
-
-  }
-
-  .nav li {
+nav li {
     font-family: 'Open Sans Condensed', sans-serif;
     font color: #004E6F;
     font-weight: 300;
@@ -33,58 +31,24 @@ body{
     line-height: 40px;
     height: 40px;
     border-bottom: 1px solid #888;
-
-  }
+}
    
-  .nav a {
+nav a {
     text-decoration: none;
     color: #FFFAF0;
     display: block;
     transition: .3s background-color;
-  }
+}
    
-  .nav a:hover {
+nav a:hover {
     background-color: #005C7A;
-  }
+}
    
-  .nav a.active {
+nav a.active {
     background-color:  #297AA3;
     color: #444;
     cursor: default;
-  }
-   
-  @media screen and (min-width: 375px) {
-    .nav li {
-      border-bottom: none;
-      height: 45px;
-      line-height: 50px;
-      font-size: 1.1em;
-      width: 25%;
-   
-    }
-   
-    .nav li {
-      display: inline-block;
-      margin-right: -4px;
-    }
-   
-     .nav li ul {
-      position: absolute;
-      display: none;
-      width: inherit;
-    }
-
-    .nav li:hover ul {
-      display: block;
-    }
-
-    .nav li ul li {
-      display: block;
-    }
-  .nav li li {
-    font-size: 1.2em;
-  }
-
+}
 
 h1{
 	font-size:60px;
@@ -106,7 +70,6 @@ h1{
 img { 
    border:none; 
    max-width: 100%;
-
 
 }
 
@@ -136,15 +99,13 @@ h2{
 	background-color: ;
 	border-color: red;
 	border-style: solid;
-  width: 40%;
- 
-	
+	width: 40%;
 }
 
 ul{
 	padding:0;
 	list-style-position:inside;
-	line-height: 119%;
+	line-height: 120%;
 	letter-spacing: normal;
 	text-align: left;
 	width: 100px;
@@ -165,7 +126,7 @@ a:hover {
 
 
 div.fullWidth {
-  width: 25%%;
+  width: 25%;
 }
 
 .clearfix:after{
@@ -179,24 +140,41 @@ div.fullWidth {
 
 .image1 {
  	padding: .5em;
-  width: 25%;
-  float: left;
+	width: 25%;
+	float: left;
  	border-width: 1px;
  	border-color: red;
  	border-style: solid;
  }
 
+@media screen and (max-width: 375px) {
+    nav li {
+      border-bottom: none;
+      height: 45px;
+      line-height: 50px;
+      font-size: 1.1em;
+      width: 25%;
+   
+    }
+   
+    nav li {
+      display: inline-block;
+      margin-right: -4px;
+    }
+   
+     nav li ul {
+      position: absolute;
+      display: none;
+      width: inherit;
+    }
 
+    nav li:hover ul {
+      display: block;
+    }
 
-@media only screen 
-  and (min-device-width: 375px) 
-  and (max-device-width: 667px) 
-  and (-webkit-min-device-pixel-ratio: 2) { 
-
-}
-
-@media screen 
-  and (min-device-width: 1200px) 
-  and (max-device-width: 1600px) 
-  and (-webkit-min-device-pixel-ratio: 1) { 
+    nav li ul li {
+      display: block;
+    }
+    nav li li {
+    font-size: 1.2em;
 }
