@@ -1,18 +1,6 @@
 @import url(http://fonts.googleapis.com/css?family=Yellowtail|Open+Sans+Condensed:300);
 * { margin:0; padding:0; box-sizing:border-box; }
 
-@media only screen 
-  and (min-device-width: 375px) 
-  and (max-device-width: 667px) 
-  and (-webkit-min-device-pixel-ratio: 2) { 
-
-}
-
-@media screen 
-  and (min-device-width: 1200px) 
-  and (max-device-width: 1600px) 
-  and (-webkit-min-device-pixel-ratio: 1) { 
-}
 
 body{
 	color:#FFFAF0;
@@ -22,21 +10,21 @@ body{
 }
 
   header {
-  	padding-top: 10px;
-  	margin: auto;
-  	position: right;
+  	padding-top: .1em;
   	width: 100%;
 
+
   }
+
 
  .nav ul {
     list-style: none;
     background-color: transparent;
     text-align: center;
-    padding: 10;
-    margin: 10;
+
 
   }
+
   .nav li {
     font-family: 'Open Sans Condensed', sans-serif;
     font color: #004E6F;
@@ -45,6 +33,7 @@ body{
     line-height: 40px;
     height: 40px;
     border-bottom: 1px solid #888;
+
   }
    
   .nav a {
@@ -64,13 +53,14 @@ body{
     cursor: default;
   }
    
-  @media screen and (min-width: 600px) {
+  @media screen and (min-width: 375px) {
     .nav li {
-      width: 75px;
       border-bottom: none;
       height: 45px;
       line-height: 50px;
       font-size: 1.1em;
+      width: 25%;
+   
     }
    
     .nav li {
@@ -100,16 +90,16 @@ h1{
 	font-size:60px;
 	font-weight: normal;
 	letter-spacing: 1px;
-	padding: 0 ;
+	padding: .2em ;
 	color:#FFFAF0;
 	font-style: ;
     font-family: "Yellowtail", cursive;
     text-shadow: 2px 2px #566D7E;
-    margin: 0;
     background-color: ;
  
 
 }
+
 
 
 	
@@ -144,10 +134,9 @@ h2{
 	font-style: ;
 	text-shadow: 2px 2px #566D7E;
 	background-color: ;
-	margin: 20px 0 15px;
 	border-color: red;
 	border-style: solid;
-
+  width: 40%;
  
 	
 }
@@ -160,28 +149,23 @@ ul{
 	text-align: left;
 	width: 100px;
 	margin: 0 auto 15px;
-	background-color: #2FABB3;
+	background-color: none;
 
 
 }
 
 
 a:link {
-	color:#005C7A;
+	color:#54B5D1;
 	background-color:transparent;
 }
 a:hover {
     color: #297AA3;
 }
 
-*{
- margin: 0;
- padding: 0;
-
-}
 
 div.fullWidth {
-  width: 100%;
+  width: 25%%;
 }
 
 .clearfix:after{
@@ -194,33 +178,25 @@ div.fullWidth {
 }
 
 .image1 {
- 	padding: auto;
- 	margin: 5px;
+ 	padding: .5em;
+  width: 25%;
+  float: left;
  	border-width: 1px;
  	border-color: red;
  	border-style: solid;
  }
 
-.image2 {
-	padding: auto;
- 	margin: 5px;
- 	border-width: 1px;
- 	border-color: red;
- 	border-style: solid;
- }
 
-.image3 {
-	padding: auto;
- 	margin: 5px;
- 	border-width: 1px;
- 	border-color: red;
- 	border-style: solid;
- }
 
- .image4 {
-	padding: auto;
- 	margin: 5px;
- 	border-width: 1px;
- 	border-color: red;
- 	border-style: solid;
- }
+@media only screen 
+  and (min-device-width: 375px) 
+  and (max-device-width: 667px) 
+  and (-webkit-min-device-pixel-ratio: 2) { 
+
+}
+
+@media screen 
+  and (min-device-width: 1200px) 
+  and (max-device-width: 1600px) 
+  and (-webkit-min-device-pixel-ratio: 1) { 
+}
