@@ -21,6 +21,7 @@ nav ul {
     list-style: none;
     background-color: transparent;
     text-align: center;
+    float: left;
 }
 
 nav li {
@@ -29,8 +30,10 @@ nav li {
     font-weight: 300;
     font-size: 1em;
     line-height: 40px;
-    height: 40px;
-    border-bottom: 1px solid #888;
+    height: 2em;
+    width: 3em;
+    position: relative;
+    display: inline;
 }
    
 nav a {
